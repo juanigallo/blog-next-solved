@@ -1,0 +1,18 @@
+.postsContainer {
+  margin: auto;
+  width: 1000px;
+  border: 1px solid #777;
+  border-radius: 10px;
+  padding: 5px 10px;
+  .postContainer {
+    &:hover {
+      background-color: #777;
+      cursor: pointer;
+      color: rgb(224, 224, 224);
+    }
+  }
+}
+
+.title {
+  border-bottom: 1px solid red;
+}
